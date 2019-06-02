@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.background {
+    background-image: linear-gradient(to right bottom, #ffffff 50%, #2076FF 50%);
+    /* height: 250vh; */
+    /* background-repeat: repeat; */
+    /* display: flex; */
+    /* height: 100%; */
+}
+
+.mainPanel {
+    /* background: #e6e6e6; */
+    height: 70vh;
+    padding: 0;
+    margin: 15vh 0vh 15vh;
+    
+    
+}
+
+.sechead {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.sec1 {
+   height: 100%;
+   width: 100%;
+    background: #03A9F5;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    /* margin-left: 0; */
+}
+
+.sec2 {
+    height: 100%;
+    width: 100%;
+     background:white;
+     /* margin-left: 0; */
+ }
+
+ .sec3 {
+    height: 100%;
+    width: 100%;
+     background: white;
+     /* margin-left: 0; */
+     border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+ }
+
+
+ .sec1>h3 {
+     color: white;
+     margin-top: 3rem;
+     
+ }
+
+ .sec1 .list{
+ color: white;
+ margin-left: 2em;
+ margin-top: 2em;
+ }
+
+ .sec1 .list ul li{
+    padding: 2vh; 
+    text-decoration: none;
+    text-align: left;
+    list-style: none;
+ }
+
+ .sec1 .list ul li i {
+     padding-right: 3em;
+     font-size: 1.5em;
+ }
+
+ .sec1 .list ul li i:hover {
+     cursor: pointer;
+ }
+
+ .sec1 .btn .btn1 {
+    color: white;
+    border-radius: 1em;
+    width: 7em;
+    margin-bottom: 5px;
+ }
+
+ .sec1 .btn .btn2 {
+    color: #007AFF;
+    background: white;
+    border-radius: 1em;
+    width: 7em;
+ }
+
+ /* sec2 */
+
+ .sec2 .sec2heading {
+     color: #e6e6e6;
+     margin-top: 3em;
+ }
+
+ .sec2 .signupform {
+     margin-top: 2em;
+ }
+
+ .sec2 .signupform input {
+    
+     text-decoration: none;
+     border: none;
+     border-bottom: 1px solid rgba(95, 92, 92, 0.719);
+
+     width: 10em;
+     margin-bottom: 3em;
+ }
+
+ .sec2 .btn1 {
+    color: white;
+    border-radius: 1em;
+    width: 7em;
+    margin-bottom: 5px;
+ }
+
+
+ /* sec 3 */
+
+ .sec3 .sec3heading {
+    margin-top: 1.5em; 
+    color: #387DDF;
+    margin-bottom: 2em;
+ }
+
+ .sec3 .sec3heading span {
+     color: #E5F0FB;
+ }
+
+
+ @media only screen and (max-width: 600px) {
+    .background {
+      height: 250vh;
+    }
+
+    .sec1 {
+        border-radius: 2em;
+        margin-left: 2em;
+        margin-bottom: 2em;
+    }
+    .sec2 {
+        border-radius: 2em;
+        margin-left: 2em;
+        margin-bottom: 2em;
+    }
+    .sec3 {
+        border-radius: 2em;
+        margin-left: 2em;
+        margin-bottom: 2em;
+    }
+
+    .sec3 .sec3heading {
+        margin-bottom: 3em;
+    }
+  }
